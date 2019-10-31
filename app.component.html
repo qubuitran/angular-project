@@ -1,0 +1,8 @@
+<nav class="navigation">
+  <a *ngFor= "let switch of navArray" (click)="setSwitch(switch)">
+    {{switch}}
+  </a>
+</nav>
+
+<app-blog *ngIf="selectedButton == 'blog'"></app-blog>
+<app-shop *ngIf="selectedButton == 'shop'"></app-shop>

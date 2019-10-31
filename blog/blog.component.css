@@ -1,0 +1,67 @@
+body {
+    font-family: Helvetica;
+    padding-left: 15px;
+  }
+  
+  .form {
+    background-color: #eee;
+    width: 580px; /* Breite des Formulars */
+    padding: 20px;
+    border: 1px solid #8c8c8c;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .control {
+    display: flex;
+  }
+  
+  label {
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  input,
+  textarea {
+    width: 550px;
+    border: 1px solid #8c8c8c;
+    margin-bottom: 1em;
+  }
+  
+  span.title {
+    font-size: x-large;
+  }
+  
+  .clear-fix {
+    clear: both;
+  }
+  
+  .blog-entry {
+    width: 600px;
+    display: flex;
+    padding-bottom: 30px;
+  }
+  
+  button {
+    float: right;
+    padding-right: 20px;
+  }
+  
+  .blog-image {
+    width: 30%;
+  }
+  
+  img {
+    max-width: 90%;
+    max-height: 100px;
+  }
+  
+  .blog-summary {
+    width: 70%;
+  }
+  
+  textarea {
+    height: 7em;
+  }
+ 
+  

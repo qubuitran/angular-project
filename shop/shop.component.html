@@ -1,0 +1,22 @@
+<div class="shop">
+    <span>
+        <h1>Sortiment</h1>
+        <ul>
+            <li class ="sortiment" *ngFor = "let artikel of sortiment">
+                <tr>Artikel-ID: {{artikel.id}}</tr>
+                <tr>Artikel-Name: {{artikel.name}}</tr>
+                <button (click)="toCart(artikel)">KAUFEN</button>
+            </li>
+        </ul>
+    </span>
+
+    <span>
+        <h1>Einkaufswagen</h1>
+        <ul>
+            <li class = "einkaufswagen" *ngFor = "let artikel of einkaufswagen">
+                <tr>Artikel-ID: {{artikel.id}}</tr>
+                <tr>Artikel-Name: {{artikel.name}}</tr>
+            </li>
+        </ul>
+    </span>
+</div> 

@@ -1,0 +1,10 @@
+li {
+    margin: 1em 0;
+    border-bottom: 1px dashed black;
+    width: 15em;
+}
+
+.shop span {
+    float: left;
+    width: 40%;
+}
